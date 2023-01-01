@@ -78,7 +78,7 @@ For this project I used MIT License.
 
 
 
-## Authors
+## Author
 
 - [@Antonio-Balea](https://github.com/Antonio-Balea)
 
