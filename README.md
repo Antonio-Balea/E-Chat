@@ -1,3 +1,5 @@
+E-Chat is a chatbot you can ask questions and he'll respond accordingly to his training data.
+
 1. If you are planning on launching this AI in your cmd, you should use cd on your location with the intents and the .py file.
 2. Here is a model for copy paste in intents.json:
 
