@@ -72,7 +72,7 @@ There you can make suggestions or leave feedbacks for my projects. I'll read the
 
 ## License
 
-For this project we used MIT License.
+For this project I used MIT License.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
