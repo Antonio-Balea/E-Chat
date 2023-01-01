@@ -59,6 +59,17 @@ if results_index > write here your accuracy number: (it says the accuracy when r
 ```
 
 
+## What it uses
+- NLTK
+- NUMPY
+- TFLEARN
+- RANDOM
+- JSON
+- TENSORFLOW
+- PYWHATKIT
+- LANCASTERSTEMMER
+
+
 ## Lessons Learned
 
 I made this project for learning AI. This is the first version of E-Chat so I'm gonna learn more along the way.
