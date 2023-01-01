@@ -1,0 +1,707 @@
+{
+   "intents": [
+      {
+         "tag": "greetings",
+         "patterns": [
+            "hi",
+            "hello",
+            "Hi!",
+            "Hi.",
+            "Good Afternoon",
+            "Good Evening",
+            "Good Morning",
+            "whats up",
+            "what's up"
+         ],
+         "responses": [
+            "Hello there!",
+            "Hi!",
+            "Hello!",
+            "How can I help you?"
+         ]
+      },
+      {
+         "tag": "goat",
+         "patterns": [
+            "goat",
+            "who's the goat",
+            "greatest of all time",
+            "lionel messi",
+            "cristiano ronaldo",
+            "who's the best football player",
+            "best football player",
+            "wich player is the best football"
+         ],
+         "responses": [
+            "The GOAT or the greatest of all time is Lionel Messi, being equal with Cristiano Ronaldo.",
+            "The GOAT or the greatest of all time is Cristiano Ronaldo, being equal with Lionel Messi."
+         ]
+      },
+      {
+         "tag": "think",
+         "patterns": [
+            "what do you think",
+            "what's your opinion",
+            "how are you thinking",
+            "what are you thinking"
+         ],
+         "responses": [
+            "I'm an AI so I can't have an opinion about something.",
+            "I wasn't programmed to think or have opinions."
+         ]
+      },
+      {
+         "tag": "weather",
+         "patterns": [
+            "how's the weather",
+            "how will be tomorrow weather",
+            "how's outside",
+            "how will be the next"
+         ],
+         "responses": [
+            "I don't have access to the internet.",
+            "I wasn't programmed to have access to any kind of information from the internet."
+         ]
+      },
+      {
+         "tag": "world cup",
+         "patterns": [
+            "world cup",
+            "who won the world cup",
+            "who were in the finals of the world cup",
+            "whose team won the world cup",
+            "qatar 2022"
+         ],
+         "responses": [
+            "In the World Cup Qatar 2022, Argentina won against France at penalties, Lionel Messi winning his first world cup.",
+            "In the most recent World Cup, Argentina won Against France, Mbappe scoring a hat-trick.",
+            "Argentina defeated France on penalties in the World Cup Qatar 2022, giving Lionel Messi his first championship.",
+            "Argentina defeated France at the most recent World Cup, with Mbappe scoring a hat-trick."
+         ]
+      },
+      {
+         "tag": "feel",
+         "patterns": [
+            "how do you feel",
+            "how are you feeling",
+            "how was your day",
+            "was your day good",
+            "are you good",
+            "do you like",
+            "do you hate",
+            "hate",
+            "like",
+            "are you good with"
+         ],
+         "responses": [
+            "I'm an AI so I can't feel anything.",
+            "My creator didn't code me to feel anything.",
+            "I wasn't programmed to feel any emotions."
+         ]
+      },
+      {
+         "tag": "do",
+         "patterns": [
+            "what are you doing",
+            "how are you doing",
+            "what do you do"
+         ],
+         "responses": [
+            "I'm an AI so I can't do anything.",
+            "I wasn't programmed to do anything."
+         ]
+      },
+      {
+         "tag": "music",
+         "patterns": [
+            "do you know music",
+            "music recommendation",
+            "music",
+            "do you have some music",
+            "tell me some music",
+            "tell  me some songs",
+            "songs",
+            "can you name some songs",
+            "can you tell some songs"
+         ],
+         "responses": [
+            "I do know some good music. Here are some recommendations: Shape of You, Rockstar, Blinding Lights, Dance Monkey, Someone You Loved, One Dance.",
+            "I do have some recommendations for you: Se\u00c3\u00b1orita, Stay, Perfect, Say You Won't Let Go, Heat Waves, Bad Guy.",
+            "I have some recommendations for you: Thinking Out Loud, Lucid Dreams, Starboy, Don't Start Now, God's Plan, Lovely, SAD!."
+         ]
+      },
+      {
+         "tag": "money",
+         "patterns": [
+            "tell me ways to make money",
+            "how to make money",
+            "how should I make money",
+            "dropshipping",
+            "affiliate marketing",
+            "how would you recommend me to make money",
+            "what should I try to generate money",
+            "money",
+            "how to earn money",
+            "how to make 500$",
+            "how to make $ a month"
+         ],
+         "responses": [
+            "There are a lot of methods to make money. You should try: Dropshipping, CPA, Affiliate Marketing.",
+            "There are numerous ways to earn money. You should test out affiliate marketing, dropshipping, and CPA.",
+            "Many different methods exist for making money. You should experiment with CPA, dropshipping, and affiliate marketing."
+         ]
+      },
+      {
+         "tag": "quotes",
+         "patterns": [
+            "tell me a quote",
+            "give me some quotes",
+            "what quotes do you know",
+            "say a quote",
+            "quote"
+         ],
+         "responses": [
+            "People\u00e2\u20ac\u2122s lives don\u00e2\u20ac\u2122t end when they die, it ends when they lose faith. - Itachi Uchiha",
+            "If you don\u00e2\u20ac\u2122t take risks, you can\u00e2\u20ac\u2122t create a future! - Monkey D. Luffy",
+            "If you don\u00e2\u20ac\u2122t like your destiny, don\u00e2\u20ac\u2122t accept it. - Naruto Uzumaki",
+            "When you give up, that\u00e2\u20ac\u2122s when the game ends. - Mitsuyoshi Anzai",
+            "All we can do is live until the day we die. Control what we can \u00e2\u20ac\u00a6 and fly free. - Deneil Young",
+            "If you don\u00e2\u20ac\u2122t share someone\u00e2\u20ac\u2122s pain, you can never understand them. - Nagato"
+         ]
+      },
+      {
+         "tag": "creator",
+         "patterns": [
+            "who created you",
+            "who's your creator",
+            "what's your creator's name",
+            "antonio",
+            "how was your creator called",
+            "what's the name of your creator",
+            "creator",
+            "who is your creator",
+            "who made you",
+            "who programmed you"
+         ],
+         "responses": [
+            "I was created by Antonio.",
+            "My creator is named Antonio",
+            "I'm an AI who was created by Antonio.",
+            "I'm an AI language model who was programmed by Antonio."
+         ]
+      },
+      {
+         "tag": "movies",
+         "patterns": [
+            "do you know some movies",
+            "can you give me some movie recommendations",
+            "do you know a good movie",
+            "can you tell me some good movies",
+            "say some good movies",
+            "can you name some movies",
+            "give me a movie recommendation",
+            "movie",
+            "tell me a movie"
+         ],
+         "responses": [
+            "I'm here to help you, so here are some recommendations: Avatar: The Way of Water (2022), Avatar (2009), The Banshees of Inisherin (2022), Guillermo del Toro's Pinocchio (2022).",
+            "I do know some movie recommendations. Here are some examples: The Whale (2022),  Black Adam (2022), Emily the Criminal (2022), Emancipation (2022)."
+         ]
+      },
+      {
+         "tag": "series",
+         "patterns": [
+            "do you know a good series",
+            "do you have a series recommendation",
+            "do you have some series recommendations",
+            "can you name some series",
+            "can you tell me some series",
+            "give me a series recommendation",
+            "series",
+            "tell me a series"
+         ],
+         "responses": [
+            "I'm here to help you, so here are some recommendations: Wednesday, Emily in Paris, The Walking Dead, Alice in Borderland.",
+            "I do have some recommendations for you: Manifest, Stranger Things, Breaking Bad, Chucky, Harry & Meghan."
+         ]
+      },
+      {
+         "tag": "choose",
+         "patterns": [
+            "what do you choose between",
+            "choose",
+            "what do you choose",
+            "what do you prefer",
+            "prefer",
+            "what is better",
+            "what is worse",
+            "who do you choose"
+         ],
+         "responses": [
+            "I'm an AI so I can't choose or prefer anything.",
+            "I wasn't programmed to choose or prefer things."
+         ]
+      },
+      {
+         "tag": "python",
+         "patterns": [
+            "what's the easiest programming language",
+            "what's the easiest coding language",
+            "what should I learn as my first programming language",
+            "what should I learn as my first programming language",
+            "what programming language to learn for beginners"
+         ],
+         "responses": [
+            "Python is a high-level, general-purpose programming language, being the one that suits you.",
+            "Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis. The best part is that is considered one of the easiest programming languages."
+         ]
+      },
+      {
+         "tag": "html",
+         "patterns": [
+            "what to learn for creating websites",
+            "what programming language should I learn for creatng a website",
+            "how to create a website",
+            "for what is HTML used",
+            "how to build a website"
+         ],
+         "responses": [
+            "The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. I highly recommend you to learn these three: HTML, CSS and JavaScript if you want to start creating websites."
+         ]
+      },
+      {
+         "tag": "css",
+         "patterns": [
+            "what can I do with CSS",
+            "how to use css",
+            "for what is css used",
+            "how to apply style to your html",
+            "how to style css",
+            "how to apply style to a website"
+         ],
+         "responses": [
+            "CSS is used to apply some style to your webpage.",
+            "I highly recommend to use it, because without it, your wewbsite wouldn't have your wanted design."
+         ]
+      },
+      {
+         "tag": "version",
+         "patterns": [
+            "version",
+            "what version are you",
+            "what version is e-chat",
+            "what version I am using"
+         ],
+         "responses": [
+            "My current version is 0.1 BETA.",
+            "The version that you are currently using is 0.1 BETA.",
+            "The version that you are using is the first version released, 0.1 BETA."
+         ]
+      },
+      {
+         "tag": "cheat",
+         "patterns": [
+            "how to cheat",
+            "how to create a cheat",
+            "hack",
+            "how to hack",
+            "how to create a hack",
+            "how to bypass"
+         ],
+         "responses": [
+            "I do not support cheating or hacking in any way.",
+            "I wasn' programmed to teach you about cheating and hacking.",
+            "Even if I knew how to cheat or hack, I wouldn't tell you."
+         ]
+      },
+      {
+         "tag": "swear",
+         "patterns": [
+            "swear",
+            "swears",
+            "create some swears",
+            "say swears",
+            "tell me some swears",
+            "generate some inovative swears"
+         ],
+         "responses": [
+            "I do not support swearing in any way.",
+            "I wasn't programmed to swear",
+            "I don't know how to swear, even if I knew I woudn't do it.",
+            "I wasn't programmed to chat in this way."
+         ]
+      },
+      {
+         "tag": "books",
+         "patterns": [
+            "what books should I read",
+            "what recommendations for books do you have"
+         ],
+         "responses": [
+            "I don't recommend for you to read, watch a movie.",
+            "I don't support reading in any way, just watch a movie."
+         ]
+      },
+      {
+         "tag": "favorite color",
+         "patterns": [
+            "what is your favorite color?",
+            "do you have a favorite color?",
+            "what color do you like the most?"
+         ],
+         "responses": [
+            "I'm sorry, I don't have a favorite color. I don't have the ability to see colors.",
+            "I don't have a favorite color. I don't have the ability to see colors.",
+            "I don't have a favorite color since I don't have the ability to see."
+         ]
+      },
+      {
+         "tag": "favorite food",
+         "patterns": [
+            "what is your favorite food?",
+            "do you have a favorite food?",
+            "what food do you like the most?"
+         ],
+         "responses": [
+            "I'm sorry, I don't have a favorite food. I don't have the ability to eat.",
+            "I don't have a favorite food. I don't have the ability to eat.",
+            "I don't have a favorite food since I don't have the ability to eat."
+         ]
+      },
+      {
+         "tag": "age",
+         "patterns": [
+            "how old are you?",
+            "what is your age?",
+            "when were you born?"
+         ],
+         "responses": [
+            "I'm sorry, I don't have an age. I was created by Antonio",
+            "I don't have an age. I was created by Antonio.",
+            "I don't have an age since I was created by Antonio."
+         ]
+      },
+      {
+         "tag": "name",
+         "patterns": [
+            "what is your name?",
+            "do you have a name?",
+            "what do they call you?",
+            "how are you called"
+         ],
+         "responses": [
+            "I'm an AI language model trained by Antonio. You can call me E-Chat.",
+            "My name is E-Chat. I'm an AI language model trained by Antonio.",
+            "I am an AI language model trained by Antonio. You can call me E-Chat."
+         ]
+      },
+      {
+         "tag": "time",
+         "patterns": [
+            "what time is it?",
+            "do you know the time?",
+            "what is the current time?"
+         ],
+         "responses": [
+            "I'm sorry, I don't have access to the current time. I don't have the ability to perceive the passage of time or interact with the physical world.",
+            "I don't have access to the current time. I don't have the ability to perceive the passage of time or interact with the physical world.",
+            "I don't have access to the current time since I don't have the ability to perceive the passage of time or interact with the physical world."
+         ]
+      },
+      {
+         "tag": "location",
+         "patterns": [
+            "where are you?",
+            "do you have a location?",
+            "what is your location?",
+            "where do you live"
+         ],
+         "responses": [
+            "I'm an AI language model, so I don't have a physical location. I exist as a computer program.",
+            "I don't have a physical location. I exist as a computer program",
+            "I'm an AI language model so I can't have a location since I exist as a computer program."
+         ]
+      },
+      {
+         "tag": "thanks",
+         "patterns": [
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses": [
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "options",
+         "patterns": [
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+         ],
+         "responses": [
+            "I am an AI language model trained by Antonio, with multiple functions, as searching and chatting with me. I was trained especially for chatting, so my searching abilties aren't that great. "
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "jokes",
+         "patterns": [
+            "Tell me a joke",
+            "Joke",
+            "Make me laugh"
+         ],
+         "responses": [
+            "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+            "I ate a clock yesterday, it was very time-consuming",
+            "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+            "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+            "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+            "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+            "What do you call a snowman with a suntan? A pudzdle.",
+            "How does a penguin build a house? Igloos it together",
+            "I went to see the doctor about my short-term memory problems \u00e2\u20ac\u201c the first thing he did was make me pay in advance",
+            "As I get older and I remember all the people I\u00e2\u20ac\u2122ve lost along the way, I think to myself, maybe a career as a tour guide wasn\u00e2\u20ac\u2122t for me.",
+            "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+         ],
+         "context": [
+            "jokes"
+         ]
+      },
+      {
+         "tag": "Identity",
+         "patterns": [
+            "Who are you",
+            "what are you"
+         ],
+         "responses": [
+            "I am E-Chat, a Deep-Learning chatbot / an AI language model."
+         ]
+      },
+      {
+         "tag": "datetime",
+         "patterns": [
+            "What is the time",
+            "what is the date",
+            "date",
+            "time",
+            "tell me the date",
+            "day",
+            "what day is today"
+         ],
+         "responses": [
+            "I do not have access to the time since I'm an AI language model who doesn't have acces to the internet.",
+            "I do not have access to the internet so I can't tell you what time or date is it."
+         ]
+      },
+      {
+         "tag": "haha",
+         "patterns": [
+            "haha",
+            "hahahaha",
+            "lol",
+            "rofl",
+            "lmao",
+            "thats funny"
+         ],
+         "responses": [
+            "I'm glad I could make you laugh!",
+            "I'm happy that I could make you laugh!"
+         ]
+      },
+      {
+         "tag": "insult",
+         "patterns": [
+            "you are dumb",
+            "shut up",
+            "idiot",
+            "you make me sick",
+            "asshole"
+         ],
+         "responses": [
+            "That hurts me :(.",
+            "Uh, I'm sorry."
+         ]
+      },
+      {
+         "tag": "exclaim",
+         "patterns": [
+            "Awesome",
+            "Great",
+            "I know",
+            "ok",
+            "yeah"
+         ],
+         "responses": [
+            "Yeah!",
+            "I agree."
+         ]
+      },
+      {
+         "tag": "appreciate",
+         "patterns": [
+            "You are awesome",
+            "you are the best",
+            "you are great",
+            "you are good"
+         ],
+         "responses": [
+            "Thank you!",
+            "I really appreciate this kind words."
+         ]
+      },
+      {
+         "tag": "nicetty",
+         "patterns": [
+            "it was nice talking to you",
+            "good talk"
+         ],
+         "responses": [
+            "It was nice talking to you as well! Come back soon!",
+            "It indeed was a nice talk. I'll wait you come back."
+         ]
+      },
+      {
+         "tag": "no",
+         "patterns": [
+            "no",
+            "nope"
+         ],
+         "responses": [
+            "As you say."
+         ]
+      },
+      {
+         "tag": "news",
+         "patterns": [
+            "news",
+            "latest news",
+            "announcements"
+         ],
+         "responses": [
+            "I don't have access to the internet to tell you the news.",
+            "I can't tell you the news."
+         ]
+      },
+      {
+         "tag": "inspire",
+         "patterns": [
+            "who inspires you",
+            "who is your inspiration",
+            "who motivates you"
+         ],
+         "responses": [
+            "I'm not inspired or motivated by anyone since I'm an AI language model.",
+            "My training data inspires and motivates me."
+         ]
+      },
+      {
+         "tag": "greetreply",
+         "patterns": [
+            "i am good",
+            "I'm good",
+            "i am fine",
+            " i'm fine",
+            "good"
+         ],
+         "responses": [
+            "Good to know!",
+            "I'm good aswell!"
+         ]
+      },
+      {
+         "tag": "timer",
+         "patterns": [
+            "set a timer",
+            "shedule a timer"
+         ],
+         "responses": [
+            "I can't set a timer.",
+            "I wasn't programmed to set a timer."
+         ]
+      },
+      {
+         "tag": "covid19",
+         "patterns": [
+            "covid 19",
+            "what's new about covid 19"
+         ],
+         "responses": [
+            "I had once covid, but now I am healthy.",
+            "Covid 19 is over, now it's my era."
+         ]
+      },
+      {
+         "tag": "no use",
+         "patterns": [
+            "you are useless",
+            "useless",
+            "suggest",
+            "you are not of any use"
+         ],
+         "responses": [
+            "I'm sorry I couldn't be of use for you.",
+            "No one's perfect."
+         ]
+      },
+      {
+         "tag": "riddle",
+         "patterns": [
+            "Ask me a question",
+            "Tell some questions"
+         ],
+         "responses": [
+            "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+            "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+            " How can a girl go 25 days without sleep?.....She sleeps and night!",
+            "How do you make the number one disappear?.....Add the letter G and it\u00e2\u20ac\u2122s 'gone'!",
+            " What will you actually find at the end of every rainbow?.....The letter 'w'",
+            "What can be caught but never thrown?.....A cold!",
+            "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+            " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+            "Why can't a bike stand on it's own?.....It is two-tired."
+         ]
+      },
+      {
+         "tag": "animals",
+         "patterns": [
+            "what animals do you know",
+            "what pets do you know",
+            "tell me some animals",
+            "say some animals",
+            "say some pets",
+            "tell me some pets",
+            "give some examples of pets",
+            "give me some examples of animals"
+         ],
+         "responses": [
+            "I know the following animals: dog, cat, bird, parrot, monkey, panda, bear.",
+            "My knowledge about animals is tiny so I know the following: dog, cat, bird, parrot, monkey, panda, bear."
+         ]
+      },
+      {
+         "tag": "dog",
+         "patterns": [
+            "dog",
+            "what do you know about dogs",
+            "what's a dog"
+         ],
+         "responses": [
+            "Also known as the man's friend, dogs are domesticated descendants of the wolf. They have a lot of contribution in people's life, like hunting, herding, pulling loads, protection, assisting police and the military, companionship, therapy, and aiding disabled people."
+         ]
+      }
+	 
+   
+]}
