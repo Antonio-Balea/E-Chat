@@ -1,15 +1,17 @@
 1. If you are planning on launching this AI in your cmd, you should use cd on your location with the intents and the .py file.
 2. Here is a model for copy paste in intents.json:
 
- {       
-	        "tag": "",
+           {       
+	    "tag": "",
             "patterns": [
                 ""
             ],
             "responses": [
                 ""
-			         ]
-       }
+	    ]
+           }
+	   
+	   
        
 3. Have in mind that if you add more training data (in intents.json), it will take longer to load it.
 4. It doesn't have a lot of training data so it can't answer everything. If you want to answer with: "I don't know what are you asking.", edit the code like this:
